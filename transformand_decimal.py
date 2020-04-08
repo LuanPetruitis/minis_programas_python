@@ -17,4 +17,4 @@ while True:
         if o == 3:
             print(f'\033[0;33m{n} convertido para hexadecimal é {hex(n)[2:]}\033[m')
         if o > 4:
-            print('Opção inválida!')
+            print('\033[0;31mOpção inválida!\033[m')

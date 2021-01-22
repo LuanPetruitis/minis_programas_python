@@ -1,0 +1,6 @@
+jose: 35
+Luan: 22
+Pedro: 30
+giovana: 16
+lucas: 12
+joao pedro: 15

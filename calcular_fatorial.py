@@ -18,5 +18,7 @@ def fatorial(n, show=False):
 
 
 # Programa Principal
-print(fatorial(5, show=True))
-help(fatorial)
+numero = int(input('Você quer calcular o fatorial de qual número inteiro: '))
+deseja = str(input('Você deseja mostrar a conta [Sim/Não]: '))
+mostrar = deseja == 'Sim'
+print(fatorial(numero, mostrar))

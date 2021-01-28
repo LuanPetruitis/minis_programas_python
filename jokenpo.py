@@ -12,7 +12,7 @@ PO!
 v = int(input('qual numero voce escolhe:  '))
 print('-='*10)
 print('O computador escolheu {}'.format(itens[c]))
-print('você escolheu {}'.format(itens[v]))
+print('Você escolheu {}'.format(itens[v]))
 print('-='*10)
 if c == 0:
     if v == 0:
@@ -35,3 +35,5 @@ elif c == 2:
         print('Você perdeu!')
     else:
         print('Empatou!')
+else:
+    print('Você digitou um número que não existe!')

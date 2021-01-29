@@ -42,3 +42,30 @@ print(pessoas)
 
 for p in pessoas:
     print(f'{p[0]} tem {p[1]} anos')
+
+# Dicionários
+dados = {'nome':'Pedro', 'idade':25}
+# nome_da_variavel = dict()
+dados['sexo'] = 'M'
+print(dados['nome'])
+print(dados['idade'])
+print(dados['sexo'])
+
+# .keys() pega as chaves como "nome"
+# .values() pega os dados como Pedro
+# .items() pega os dois
+
+for k, v in dados.items():
+    print(f'O {k} é {v}')
+
+nome_da_variavel = [{'nome':'Pedro', 'idade':25}]
+print(nome_da_variavel[0]['nome'])
+
+
+estado = dict()
+brasil = list()
+for c in range(0,3):
+    estado['uf'] = str(input('Unidade Federativa: '))
+    estado['sigla'] = str(input('Sigla do estado: '))
+    brasil.append(estado.copy())
+print(brasil)
